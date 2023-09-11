@@ -130,13 +130,13 @@ th, td {
 
 .header-txt h1 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     color: #DFDDE0;
 }
 
 
 .header-txt p {
-    font-size: 15px;
+    font-size: 16px;
     color: #DFDDE0;
     text-transform: capitalize;
     margin-bottom: 1px;
@@ -151,7 +151,7 @@ th, td {
 
 .btn-1, .btn-2 {
     display: inline-block;
-    padding: 8px 25px;
+    padding: 13px 25px;
     background-color: #BA8250;
     color: #DFDDE0;
     font-family: 'Bebas Neue', sans-serif;
@@ -167,7 +167,7 @@ th, td {
 }
 
 .about-img {
-    flex-basis: 25%;
+    flex-basis: 50%;
     text-align: center;
 }
 
@@ -303,7 +303,7 @@ h3 {
     }
 
     .about-img {
-        order: 2;
+        order: 1;
     }
 
     .about-img img {
