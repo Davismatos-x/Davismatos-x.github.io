@@ -249,6 +249,11 @@ h3 {
 
 @media (max-width:991px) {
 
+    .product-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 70px;
+    }
     .menu {
         padding: 20px;
     }
@@ -303,7 +308,7 @@ h3 {
     }
 
     .about-img {
-        order: 1;
+        order: 2;
     }
 
     .about-img img {
