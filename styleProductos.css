@@ -29,13 +29,7 @@ img {
 .header {
     display: flex;
     align-items: center;
-    min-height: 80vh;
-    background: linear-gradient(
-        90deg,
-        rgba(47,28,42,1) 0%,
-        rgba(45,54,61,1) 50%,
-        rgba(19,41,65,1) 100%,
-    );
+    min-height: 20vh;
 }
 
 .menu {

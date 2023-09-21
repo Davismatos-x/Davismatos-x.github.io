@@ -4,6 +4,8 @@ font-family: 'Bebas Neue', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -175,94 +177,147 @@ th, td {
 
 }
 
-.about {
-    padding: 120px 0;
-    display: flex;
-    justify-content: space-between;
-}
 
-.about-img {
-    flex-basis: 50%;
-    text-align: center;
-}
 
-.about-img img {
-    width: 350px;
-}
 
-.about-txt {
-    flex-basis: 50%;
-}
 
-h2 {
-    color: #DFDDE0;
-    font-size: 80px;
-    font-family: 'Bebas Neue', sans-serif;
-    margin-bottom: 15px;
-}
-
-p {
-    font-size: 16px;
-    color: #DFDDE0;
-}
-
-.products {
-    padding: 0 0 200px 0;
-    text-align: center;
-}
-
-.products h2 {
-    margin-bottom: 50px;
-}
-
-.product-content {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 70px;
-}
-
-h3 {
-    color: #DFDDE0;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.precio {
-    color: #BA8250;
-    font-weight: 800;
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
-
-.btn-2 {
+* {
     margin: 0;
-    padding: 8px 35px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-.footer {
-    border-top: 1px solid #BA815065;
-    padding: 50px 0;
+
+
+body {
+    background-color: #18171D;    
+}
+
+
+
+.Formulario {
     display: flex;
-    justify-content: space-between;
+    background-color: #fff;
+    height:  750px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+
 }
 
-.link h3 {
-    font-size: 22px;
+.form {
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.link a {
-    font-size: 16px;
-    color: #ffffff;
-    display: block;
-    margin-bottom: 15px;
-}
-
-.link a:hover {
+.form h2 {
+    font-size: 45px;
     color: #BA8250;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    
 }
 
-@media (max-width:991px) {
+.form p {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin-bottom: 25px;
+
+}
+
+.label {
+    font-size: 15px;
+    color: #18171D;
+    margin-bottom: 15px;
+
+}
+
+
+.box{
+    border: 0;
+    background-color: #7a7a7a;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+   
+
+}
+
+.submit {
+    background: #BA8250;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 80px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.info {
+    padding: 20px;
+}
+
+.img-1 {
+    width: 350px;
+    margin: 50px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.icons img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.icons p {
+    font-size: 14px;
+    color: #969EAE;
+}
+
+.social {
+    display: flex;
+
+}
+
+.social img {
+    width: 50px;
+    margin-right: 30px;
+}
+
+
+
+@media (max-width:990px) {
+
+   .info {
+    display: none;
+   }
+
+    .form {
+        width: 100%;
+        padding: 30px;
+    }
 
     .product-content {
         display: grid;
@@ -304,7 +359,7 @@ h3 {
 
     .header {
         min-height: 0vh;
-        padding: 100px 30px;
+        padding: 5px 40px;
     }
 
     .header-txt {
@@ -348,4 +403,7 @@ h3 {
         flex-direction: column;
         text-align: center
     }
+
 }
+
+    
