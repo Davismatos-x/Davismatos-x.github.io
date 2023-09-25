@@ -83,9 +83,17 @@ img {
     display: block;
     padding: 25px ;
 
+}
 
+.derechos{
+    width: 1050px;
+    display: block;
+    padding: 100px ;
+    text-align: center;
+    padding: 50px 0;
 
 }
+
 
 #menu {
     display: none;
