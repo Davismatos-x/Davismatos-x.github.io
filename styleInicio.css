@@ -95,6 +95,46 @@ img {
 }
 
 
+/*publicidad*/
+
+
+.ads2, .ads3 {
+    width: 160px;
+    position: fixed;
+    top: 180px;
+}
+
+.ads2 {
+    left: 60px;
+
+}
+
+.ads2.hiden {
+    display: none;
+}
+
+
+.ads3 {
+    right: 60px;
+
+}
+
+.ads3.hiden {
+    display: none;
+}
+
+.cerrar-ads {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    & img {
+        width: 25px;
+        height: 25px;
+}
+}
+
 #menu {
     display: none;
 }
