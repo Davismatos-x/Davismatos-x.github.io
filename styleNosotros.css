@@ -34,7 +34,7 @@ img {
         90deg,
         rgba(47,28,42,1) 0%,
         rgba(45,54,61,1) 50%,
-        rgba(19,41,65,1) 100%,
+        rgb(247, 247, 247) 100%,
     );
 }
 
@@ -72,6 +72,27 @@ img {
     color: #BA8250;
 }
 
+.derecho {
+
+    color: #ffffff;
+    padding: 550px;
+    align-items: center;
+    width: 700px;
+    display: block;
+    padding: 25px ;
+
+}
+
+.derech{
+    width: 470px;
+    display: block;
+    padding: 2000px ;
+    text-align: center;
+    padding: 50px 0px;
+    color: #ffffff;
+    
+
+}
 
 
 .derecho {
@@ -222,7 +243,7 @@ p {
 }
 
 h3 {
-    color: #DFDDE0;
+    color: #BA8250;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
     margin-bottom: 10px;
