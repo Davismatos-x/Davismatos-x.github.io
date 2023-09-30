@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif;
 */
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +76,6 @@ img {
 
 
 
-
 .derecho {
 
     color: #DFDDE0;
@@ -86,17 +86,6 @@ img {
     padding: 25px ;
 
 
-
-}
-
-.derech{
-    width: 470px;
-    display: block;
-    padding: 2000px ;
-    text-align: center;
-    padding: 50px 0px;
-    color: #ffffff;
-    
 
 }
 
@@ -177,113 +166,17 @@ th, td {
 
 }
 
-.btn-2 {
+.btn-1, .btn-2 {
     display: inline-block;
     padding: 13px 25px;
     background-color: #BA8250;
-    color: #ffffff;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-    
-
-}
-
-.btn-1 {
-    display: inline-block;
-    padding: 13px 25px;
-    background-color: #BA8250;
-    color: #ffffff;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-.about {
-    padding: 120px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-img {
-    flex-basis: 50%;
-    text-align: center;
-}
-
-.about-img img {
-    width: 350px;
-}
-
-.about-txt {
-    flex-basis: 50%;
-}
-
-h2 {
-    color: #BA8250;
-    font-size: 80px;
-    font-family: 'Bebas Neue', sans-serif;
-    margin-bottom: 15px;
-}
-
-p {
-    font-size: 16px;
     color: #DFDDE0;
-}
-
-.products {
-    padding: 0 0 200px 0;
-    text-align: center;
-}
-
-.products h2 {
-    margin-bottom: 50px;
-}
-
-.product-content {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 70px;
-}
-
-h3 {
-    color: #BA8250;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 55px;
+
 }
 
-.precio {
-    color: #ffffff;
-    font-weight: 800;
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
-
-.btn-2 {
-    margin: 0;
-    padding: 8px 35px;
-}
-
-.footer {
-    border-top: 1px solid #BA8250;
-    padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.link h3 {
-    font-size: 22px;
-}
-
-.link a {
-    font-size: 16px;
-    color: #ffffff;
-    display: block;
-    margin-bottom: 15px;
-}
-
-.link a:hover {
-    color: #BA8250;
-}
 
 
 
@@ -310,7 +203,7 @@ body {
     width: 1000px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 25px;
 
 }

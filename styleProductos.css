@@ -14,8 +14,7 @@ font-family: 'Poppins', sans-serif;
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #18171D;      
-
+    background-color: #18171D;    
 }
 
 img {
@@ -25,57 +24,12 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
-
 
 .header {
     display: flex;
     align-items: center;
-    min-height: 12vh ;
-}
-
-/*publicidad*/
-
-
-.ads2, .ads3 {
-    width: 160px;
-    position: fixed;
-    top: 180px;
-}
-
-.ads2 {
-    left: 60px;
-
-}
-
-.ads2.hiden {
-    display: none;
-}
-
-
-.ads3 {
-    right: 60px;
-
-}
-
-.ads3.hiden {
-    display: none;
-}
-
-.cerrar-ads {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    cursor: pointer;
-    & img {
-        width: 25px;
-        height: 25px;
-    }
-
-
-
+    min-height: 20vh;
 }
 
 .menu {
@@ -88,12 +42,8 @@ img {
     justify-content: space-between;
 }
 
-
-
-
-
 .DBIKER {
-    font-size: 35px;
+    font-size: 25px;
     color: #BA8250;
     text-transform: uppercase;
     font-weight: 800;
@@ -107,7 +57,7 @@ img {
 .menu .navbar ul li a {
     font-size: 17px;
     padding: 20px;
-    color: #ffffff;
+    color: #DFDDE0;
     text-transform: uppercase;
     display: block;
 }
@@ -120,26 +70,16 @@ img {
 
 .derecho {
 
-    color: #ffffff;
+    color: #DFDDE0;
     padding: 550px;
     align-items: center;
     width: 700px;
     display: block;
     padding: 25px ;
 
-}
 
-.derech{
-    width: 470px;
-    display: block;
-    padding: 2000px ;
-    text-align: center;
-    padding: 50px 0px;
-    color: #ffffff;
-    
 
 }
-
 
 #menu {
     display: none;
@@ -183,10 +123,10 @@ th, td {
 }
 
 .borrar {
-    background-color: #ffffff;
+    background-color: #BA8250;
     border-radius: 100%;
     padding: 5px 10px;
-    color: #541c70;
+    color: #DFDDE0;
     font-weight: 800;
     cursor: pointer;
 }
@@ -214,29 +154,19 @@ th, td {
 .header-txt img {
     width: 700px;
     display: block;
-    padding: 50px ;
+    padding: 25px ;
 
 }
 
-.btn-2 {
+.btn-1, .btn-2 {
     display: inline-block;
     padding: 13px 25px;
     background-color: #BA8250;
-    color: #ffffff;
+    color: #DFDDE0;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
-    
+    margin-top: 55px;
 
-}
-
-.btn-1 {
-    display: inline-block;
-    padding: 13px 25px;
-    background-color: #BA8250;
-    color: #ffffff;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-    margin-top: 0px;
 }
 
 .about {
@@ -259,7 +189,7 @@ th, td {
 }
 
 h2 {
-    color: #BA8250;
+    color: #DFDDE0;
     font-size: 80px;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 15px;
@@ -286,14 +216,14 @@ p {
 }
 
 h3 {
-    color: #BA8250;
+    color: #DFDDE0;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
     margin-bottom: 10px;
 }
 
 .precio {
-    color: #ffffff;
+    color: #BA8250;
     font-weight: 800;
     padding: 10px 0;
     margin-bottom: 10px;
@@ -305,7 +235,7 @@ h3 {
 }
 
 .footer {
-    border-top: 1px solid #ffde00;
+    border-top: 1px solid #BA815065;
     padding: 50px 0;
     display: flex;
     justify-content: space-between;
@@ -335,10 +265,6 @@ h3 {
     }
     .menu {
         padding: 20px;
-    }
-
-    .adss-baner{
-        display: none;
     }
 
     .menu label {
@@ -371,9 +297,8 @@ h3 {
     }
 
     .header {
-        display: flex;
-        align-items: center;
-        min-height: 12vh ;
+        min-height: 0vh;
+        padding: 100px 30px;
     }
 
     .header-txt {
